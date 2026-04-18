@@ -136,9 +136,9 @@ while lecciones<10:
             print(f"🚀 ¡Vamos! ¡Mantén esa racha de {racha} viva, tú puedes! 🔥😎")
         else:
             print(f"Mira tu racha {racha}")
+    lecciones += 1
     except ValueError:
         print("Escribe el numero al que pertenece tu dificultad")
-    lecciones += 1
 
 print(f"🔥 Racha final: {racha}")
 print(f"🎯 Respuestas correctas: {Correctas}")
